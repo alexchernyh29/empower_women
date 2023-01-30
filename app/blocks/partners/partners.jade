@@ -1,0 +1,20 @@
+mixin partners()
+
+    +b('section').partners
+        +e.wrap
+            +e('h4').title Our partners 
+            +e('p').subtitle Support our initiative and become a partner of the Empower Women<br>project — we look forward to cooperating with you!
+            +e.slider 
+                +e.prev
+                    img(src='/images/prev.svg')
+                +e.block
+                    +e.logo
+                        img(src='/images/logo-partners.png')
+                    +e('p').text <span>Ada's List<span> is a global community and professional network striving<br>to create a more inclusive and equal tech industry.
+                    +e.link 
+                        +e('p').text-link Learn more
+                        +e.arrow 
+                            img(src='/images/arrow.svg')
+                +e.next
+                    img(src='/images/next.svg')
+            

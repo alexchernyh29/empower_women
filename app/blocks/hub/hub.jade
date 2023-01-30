@@ -1,0 +1,36 @@
+mixin hub()
+
+    +b('section').hub
+        +e('h4').text-section News hub
+        +e.wrap-number
+            +e('p').text-number 01/
+            +e('p').text-number 02/
+        +e.wrap-number
+            +e('p').text-number 03/
+            +e('p').text-number 04/
+        +e.wrap_up
+            +e.block 
+                +e.image
+                    img(src='/images/hub-image_1.png')
+                +e.title The evolution<br> of women in IT 
+                +e.text Watch Kaspersky and Ada's List event<br> where we talk about how women<br> perceive the industry and the<br> opportunities available to them, as well<br> as challenges due to the ongoing global<br> pandemic. 
+            +e.block
+                +e.image
+                    img(src='/images/hub-image_2.png')
+                +e.title Women<br> and diversity  
+                +e.text Our articles about Women<br>in tech and tech and women.
+        +e.wrap_down
+            +e.block 
+                +e.image
+                    img(src='/images/hub-image_3.png')
+                +e.title It's women's<br> business 
+                +e.text We help women to build a<br> career in IT.
+            +e.block 
+                +e.image
+                    img(src='/images/hub-image_4.png')
+                +e.title Where are<br> all the women<br> in IT?
+                +e.text The research paints a detailed<br> picture of the gender makeup of IT<br> teams across Europe in 2018.
+        +e.news_wrap
+            +e.text-news More news 
+            +e.arrow
+                img(src='/images/arrow.svg')
