@@ -1,4 +1,5 @@
 extends /blocks/layout-default/layout-default
+include /blocks/promo/promo
 include /blocks/hub/hub
 include /blocks/podcast/podcast
 include /blocks/partners/partners
@@ -8,6 +9,7 @@ block head
 	- var pageTitle = 'Project Template';
 
 block content
+	+promo()
 	+hub()
 	+podcast()
 	+partners()

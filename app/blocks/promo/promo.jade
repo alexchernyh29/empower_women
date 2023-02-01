@@ -1,0 +1,55 @@
+mixin promo()
+
+    +b('section').promo
+        +e.multilanguage
+            +e('p').text RU
+            +e('p').text FR 
+            +e('p').text EN
+        +e.logo 
+             img(src='/images/logo.png')
+        +e('p').slogan We are committed to creating a more diverse, more secure<br>industry and championing women in cybersecurity
+        +e('p').title Empover
+        +e('p').subtitle women 
+        +e.woman_image 
+            img(src='/images/woman_promo.png')
+        +e.bg_woman
+            img(src='/images/promo_image.png')
+        +e.wrap_card
+            +e.card
+                +e('p').text_card Noushin Shabab
+                +e.arrow
+                     img(src='/images/arrow_down.svg')
+            +e.card
+                +e('p').text_card Yuliya Loktyushina 
+                +e.arrow
+                     img(src='/images/arrow_down.svg')
+            +e.card
+                +e('p').text_card Daniela Alvarez de Lugo
+                +e.arrow
+                     img(src='/images/arrow_down.svg')
+            +e.card
+                +e('p').text_card Alessandra Venneri 
+                +e.arrow
+                     img(src='/images/arrow_down.svg')
+            +e.card
+                +e('p').text_card Tatyana Shishkova
+                +e.arrow
+                     img(src='/images/arrow_down.svg')
+        +e.wrap_text 
+            +e('p').text_info As we enter the third decade of the 21st century, where do women stand in technology and IT? Kaspersky decided to build on the research it began in 2018, and in 2020 the company spoke to women in Europe, North America, Latin America and the APAC region to find out how they now feel and what has changed over the past two years. There's plenty of good news: 57% of the women surveyed agree that gender equality has improved in their organization. Even COVID-19 has brought benefits, with working from home helping women feel more autonomous in their roles — boosting their confidence as well as their career prospects. But there's still a lot to be done in the field to truly empower women.
+            +e.wrap_info 
+                +e('p').info_title 56% 
+                +e('p').info_subtitle of women working<br>in IT globally 
+                +e('p').info_text agree that there are now more women in IT and tech roles in their organization than two years ago.
+            +e.wrap_info
+                +e.image_info 
+                    img(src='/images/promo_image-pdf.png')
+                +e('a').text_info Check out all the<br>numbers, data and facts<br>in the Kaspersky<br>Women in tech<br>report for 2020-2021
+        +e.wrap_statistic
+            +e.promo_text Facts 
+            +e.statistic
+                +e.statistic_text Only
+                +e.statistic_procent 10<span>%</span>
+            +e('p').statistic_subtitle of women
+            +e('p').statistic_info surveyed work in a majority female team, with 48% in a male-dominated environment and 39% in an evenly split workplace.
+            

@@ -1,0 +1,252 @@
+.promo
+    position relative
+    height 100%
+    background url('/images/promo_bg.png') no-repeat
+    background-size cover
+    overflow hidden
+
+    &__bg
+        z-index 1
+        width w(1920)
+        height w(1080)
+        img
+            width 100%
+
+    &__multilanguage
+        padding-top w(50)
+        padding-right w(110)
+        display flex
+        flex-direction row
+        justify-content flex-end
+
+    &__text
+        padding w(5)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(19)
+        line-height w(19)
+        color #A7A7A7
+        &:nth-child(2)
+            margin 0 w(20) 0 w(20)
+
+    &__logo
+        margin-left w(350)
+        width w(160)
+        img
+            width 100%
+
+    &__slogan
+        position absolute
+        top w(150)
+        right w(300)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(23)
+        line-height w(23)
+        color $c-black
+
+    &__title
+        padding-top w(100)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(120)
+        line-height w(121)
+        text-align center
+        letter-spacing -0.02em
+        color rgba(255, 255, 255, 0.6)
+
+    &__subtitle
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(336)
+        line-height w(124)
+        text-align center
+        letter-spacing -0.02em
+        color #FFFFFF
+        text-shadow 0px 0px 27.2013px rgba(255, 255, 255, 0.6)
+
+    &__woman_image 
+        position absolute
+        top w(400)
+        left w(245)
+        width w(1490)
+        img
+            width 100%
+
+    &__bg_woman
+        z-index 1
+        position absolute
+        top w(400)
+        right w(100)
+        width w(1300)
+        img
+            width 100%
+
+    &__wrap_card
+        top w(300)
+        left w(300)
+        z-index 2
+        position absolute
+        display flex
+        flex-direction row
+        justify-content center
+
+    &__card
+        padding-top w(350)
+        display flex
+        flex-direction column
+        justify-content center
+        align-items center
+        &:first-child
+            margin-left w(120)
+        &:nth-child(2)
+            margin w(130) 0 0 w(120)
+        &:nth-child(3)
+            margin w(63) 0 0 w(45)
+        &:nth-child(4)
+            margin w(34) 0 0 w(52)
+        &:nth-child(5)
+            margin w(100) 0 0 w(245)
+
+    &__text_card
+        padding w(10) w(8)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(14)
+        line-height w(14)
+        color $c-white
+        background #9FA8A8
+        border-radius w(3)
+        text-align center
+
+    &__wrap_text
+        position absolute
+        z-index 3
+        padding-left w(380)
+        padding-top w(500)
+        display flex
+        flex-direction row
+        justify-content center
+
+    &__text_info
+        padding-top w(80)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(18)
+        line-height w(24)
+        color $c-black
+        width w(450)
+        &:last-child
+            padding-top w(10)
+
+    &__wrap_info
+        padding-left w(180)
+        display flex
+        flex-direction column
+        &:last-child
+            padding-top w(180)
+            padding-left w(150)
+        
+
+    &__info_title
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(216)
+        line-height w(218)
+        color $c-black
+        letter-spacing -0.02em
+
+    &__info_subtitle
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 600
+        font-size w(30)
+        line-height w(26)
+        color $c-black
+    
+    &__info_text
+        padding-top w(20)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(22)
+        line-height w(28)
+        color $c-black
+        width w(340)
+
+    &__image_info
+        margin-left w(70)
+        margin-top w(70)
+        align-items center
+        width w(65)
+        img
+            width 100%
+
+    &__wrap_statistic
+        padding w(1000) 0 0 w(500)
+
+    &__promo_text
+        position absolute
+        top w(1600)
+        left w(250)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(54)
+        line-height w(93)
+        color $c-grey
+        transform rotate(-90deg)
+
+    &__statistic
+        display flex
+        flex-direction row
+    
+    &__statistic_text
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 600
+        font-size w(51)
+        line-height w(52)
+        color $c-black
+
+    &__statistic_procent
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(152)
+        line-height w(19)
+        color $c-black
+        span
+            padding-top w(20)
+            font-size w(100)
+
+    &__statistic_subtitle
+        padding-top w(10)
+        padding-left w(70)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 600
+        font-size w(46)
+        line-height w(56)
+        color $c-black
+
+    &__statistic_info
+        padding-top w(25)
+        padding-left w(130)
+        width w(670)
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(23)
+        line-height w(28)
+        color $c-grey_1
+        span
+            font-size w(28)
+            color $c-black
