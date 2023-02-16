@@ -1,12 +1,13 @@
 mixin promo()
 
     +b('section').promo
+<<<<<<< HEAD
         +e.multilanguage
             +e('p').text RU
             +e('p').text FR 
             +e('p').text EN
         +e.logo 
-             img(src='/images/logo.png')
+            img(src='/images/logo.png')
         +e('p').slogan We are committed to creating a more diverse, more secure<br>industry and championing women in cybersecurity
         +e('p').title Empover
         +e('p').subtitle women 
@@ -18,23 +19,23 @@ mixin promo()
             +e.card
                 +e('p').text_card Noushin Shabab
                 +e.arrow
-                     img(src='/images/arrow_down.svg')
+                    img(src='/images/arrow_down.svg')
             +e.card
                 +e('p').text_card Yuliya Loktyushina 
                 +e.arrow
-                     img(src='/images/arrow_down.svg')
+                    img(src='/images/arrow_down.svg')
             +e.card
                 +e('p').text_card Daniela Alvarez de Lugo
                 +e.arrow
-                     img(src='/images/arrow_down.svg')
+                    img(src='/images/arrow_down.svg')
             +e.card
                 +e('p').text_card Alessandra Venneri 
                 +e.arrow
-                     img(src='/images/arrow_down.svg')
+                    img(src='/images/arrow_down.svg')
             +e.card
                 +e('p').text_card Tatyana Shishkova
                 +e.arrow
-                     img(src='/images/arrow_down.svg')
+                    img(src='/images/arrow_down.svg')
         +e.wrap_text 
             +e('p').text_info As we enter the third decade of the 21st century, where do women stand in technology and IT? Kaspersky decided to build on the research it began in 2018, and in 2020 the company spoke to women in Europe, North America, Latin America and the APAC region to find out how they now feel and what has changed over the past two years. There's plenty of good news: 57% of the women surveyed agree that gender equality has improved in their organization. Even COVID-19 has brought benefits, with working from home helping women feel more autonomous in their roles — boosting their confidence as well as their career prospects. But there's still a lot to be done in the field to truly empower women.
             +e.wrap_info 
@@ -53,3 +54,39 @@ mixin promo()
             +e('p').statistic_subtitle of women
             +e('p').statistic_info surveyed work in a majority female team, with 48% in a male-dominated environment and 39% in an evenly split workplace.
             
+=======
+            .container
+                +e.wrap
+                    +e.banner
+                        +e('h4').title BOSH и DREMEL
+                        +e('p').subtitle УЖЕ В ПРОДАЖЕ!
+                        +e('button').button Подробнее
+                        +e.swap 
+                            +e.active 
+                            +e.next
+                            +e.next
+                            +e.next
+                    +e.swap-prev 
+                        img(src='/images/prev.png')
+                    +e.swap-next 
+                        img(src='/images/next.png')
+                    +e.banner__mini
+                        +e.info
+                            +e('p').text Товар дня
+                            +e.sale
+                                img(src='/images/sale.png')
+                        +e.product
+                            img(src='/images/product.png')
+                        +e('p').text__info TGLI 12V-80, Аккумуляторный фонарь
+                        +e.wrap__price 
+                            +e('p').text__price 2484,00Р
+                            +e.cart
+                                img(src='/images/cart.png')
+                        +e.swap 
+                            +e('hr').active 
+                            +e.next
+                            +e.next
+                            +e.next
+                        +e.swap-next__mini
+                            img(src='/images/next.png')
+>>>>>>> b696689ed00f46ddd370b5589e0a78f6f53df514

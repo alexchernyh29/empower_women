@@ -1,0 +1,69 @@
+.sliders
+    padding w(120) w(305) 0 w(330)
+    position relative
+    z-index 10
+
+    &__wrap__country
+        width w(750)
+        display flex
+        flex-direction row
+        justify-content space-between
+
+    &__text__country
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(14)
+        line-height w(12)
+        text-align center
+        letter-spacing -0.02em
+        color $c-black
+
+    &__title
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(25)
+        line-height w(23)
+        text-align center
+        color $c-black
+
+    &__block__title-1
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(25)
+        line-height w(23)
+        text-align center
+        color $c-black
+
+    &__block__wrap-1
+        display flex
+        flex-direction row
+        justify-content flex-start
+
+    &__block-1
+        display flex
+        flex-direction column
+        justify-content flex-end
+
+    &__line
+        width w(220)
+        height w(20)
+        background linear-gradient(180deg, #FF1CF6 0%, #FFC9B4 100%)
+        transform matrix(0, 1, 1, 0, 0, 0)
+        &:nth-child(2)
+            width w(170)
+        &:nth-child(3)
+            width w(160)
+        &:last-child
+            width w(120)
+
+    &__text__procent
+        font-family $ff-Kaspersky
+        font-style normal
+        font-weight 400
+        font-size w(25)
+        line-height w(23)
+        text-align center
+        color $c-black

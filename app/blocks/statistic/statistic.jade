@@ -1,0 +1,20 @@
+mixin statistic()
+
+    +b('section').statistic
+        +e.background
+            img(src='/images/statistic_bg.png')
+        +e.block
+            +e.wrap 
+                +e('p').procent 44<span>%</span> 
+                +e.wrap__info
+                    +e('p').title of women in tech 
+                    +e('p').text agree that 'men progress faster than women in my organization.'
+            +e('p').subtitle The impact of the COVID-19<br>pandemic
+            +e('p').subtitle-info The 'new normal' of women in<br> tech: a work-life [im]balance
+            +e.block__subtitle
+                +e('p').subtitle-number <span>48</span>
+                +e('p').subtitle-procent %
+                +e('p').subtitle-text of women
+            +e('p').text-info surveyed say they have found juggling work and family life stressful since March 2020.
+            +e('p').title-info 6 in 10women
+            +e('p').text-info have taken on the responsibility for most of the household work and home schooling since the beginning of the COVID-19 outbreak.  

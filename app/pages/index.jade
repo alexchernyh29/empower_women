@@ -1,16 +1,32 @@
 extends /blocks/layout-default/layout-default
+<<<<<<< HEAD
 include /blocks/promo/promo
+include /blocks/sliders/sliders
 include /blocks/hub/hub
+include /blocks/statistic/statistic
 include /blocks/podcast/podcast
 include /blocks/partners/partners
 include /blocks/footer/footer
+=======
+include /blocks/header-top/header-top
+include /blocks/header-bottom/header-bottom
+include /blocks/promo/promo
+>>>>>>> b696689ed00f46ddd370b5589e0a78f6f53df514
 
 block head
 	- var pageTitle = 'Project Template';
 
 block content
+<<<<<<< HEAD
 	+promo()
+	+statistic()
+	+sliders()
 	+hub()
 	+podcast()
 	+partners()
 	+footer()
+=======
+	+header-top()
+	+header-bottom()
+	+promo()
+>>>>>>> b696689ed00f46ddd370b5589e0a78f6f53df514
